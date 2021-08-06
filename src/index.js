@@ -16,7 +16,7 @@ app.delete('/items/:id', deleteItem);
 
 db.init()
     .then(() => {
-        app.listen(5353, '127.0.0.1',() => console.log('Listening on port 54778'));
+        app.listen(5353,() => console.log('Listening on port 5353'));
     })
     .catch(err => {
         console.error(err);
