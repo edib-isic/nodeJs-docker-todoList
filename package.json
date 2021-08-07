@@ -6,7 +6,8 @@
   "scripts": {
     "prettify": "prettier -l --write \"**/*.js\"",
     "test": "jest",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "start": "nodemon src/index.js"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
